@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CG's Converter Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌿 CG's Shein Affiliate Link Converter 🌿</h1>
+
+    <label>Destination URL:</label>
+    <input type="text" id="destination" placeholder="https://ph.shein.com/...">
+
+    <label>Affiliate ID:</label>
+    <input type="text" id="affiliateId" placeholder="e.g. 1883063">
+
+    <label>KOC / Ref Code:</label>
+    <input type="text" id="refCode" placeholder="e.g. 2C263">
+
+    <label>Goods ID (optional):</label>
+    <input type="text" id="goodsId" placeholder="e.g. 38308696">
+
+    <button onclick="convertLink()">Convert</button>
+    <p id="output"></p>
+  </div>
+</body>
+</html>
