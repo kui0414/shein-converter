@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e8f5e9; /* light green background */
+  color: #1b5e20; /* dark green text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(27, 94, 32, 0.2);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #2e7d32; /* medium green */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #81c784;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #4caf50; /* primary green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #388e3c; /* darker green on hover */
+}
+
+#output {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #1b5e20;
+}
